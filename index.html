@@ -30,6 +30,10 @@
         display: flex; /* Use flex display for each legend item */
         align-items: center; /* Align items vertically in the legend item */
     }
+    .legend-title {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
     
     .legend-circle {
         display: inline-block;
@@ -70,6 +74,7 @@
     
             <div class="folium-map" id="map_2c872f3c8416ae942a719d809a92d28f" ></div>
             <div id="legend">
+                <div class="legend-title">Supercharger Energy Sources</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: lightgreen;"></span>Geothermal</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: darkgreen;"></span>Biomass</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: lightblue;"></span>Wind</div>
