@@ -24,6 +24,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Align items to the end of the flex container */
+        width: 270px; /* Set a fixed width */
     }
     .legend-item {
         margin-bottom: 8px;
@@ -33,6 +34,11 @@
     .legend-title {
         font-weight: bold;
         margin-bottom: 8px;
+    }
+    .legend-subtitle {
+        font-size: 10px;
+        margin-bottom: 8px;
+        width: 100%;
     }
     
     .legend-circle {
@@ -75,6 +81,7 @@
             <div class="folium-map" id="map_2c872f3c8416ae942a719d809a92d28f" ></div>
             <div id="legend">
                 <div class="legend-title">Supercharger Energy Sources</div>
+                <div class="legend-subtitle">"Open" or "Temporarily Closed" superchargers are color-coded by the primary source of the closest power plant with a total capacity of at least 10 megawatts</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: lightgreen;"></span>Geothermal</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: darkgreen;"></span>Biomass</div>
                 <div class="legend-item"><span class="legend-circle" style="background-color: lightblue;"></span>Wind</div>
